@@ -1,0 +1,71 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.env/
+*.env
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.pyc
+*.pyo
+
+# Cython debug symbols
+cython_debug/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Test coverage
+.coverage
+.coverage.*
+*.cover
+*.log
+nosetests.xml
+coverage.xml
+*.tox/
+*.nox/
+*.coverage
+*.hypothesis/
+
+# Python packaging
+*.egg
+*.egg-info/
+*.dist-info/
+*.pyd
+*.pyc
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+
+# linting and formatting
+*.flake8
+*.tox
+*.nox
+*.coverage
+*.hypothesis/
+*.pytest_cache/
