@@ -1,1 +1,2 @@
-from .relu import ReLU
+from .relu import reLU
+from .sigmoid import sigmoid

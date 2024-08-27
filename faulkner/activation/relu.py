@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def ReLU(nd: np.ndarray) -> np.ndarray:
+def reLU(x: np.ndarray) -> np.ndarray:
     """
         Apply ReLU activation function
         
@@ -11,4 +11,4 @@ def ReLU(nd: np.ndarray) -> np.ndarray:
         Returns:
         numpy.ndarray: Output array with ReLU applied
     """
-    return np.maximum(0, nd)
+    return np.maximum(0, x)
